@@ -1,29 +1,32 @@
-# Description de Projet: Calculatrice
+# Calculator
 
-> L'objectif est de réaliser une calculatrice très simple pouvant calculer une somme, une soustraction, une multiplication, une division et
-le reste d’une division entière de deux opérandes, ainsi que le changement de signe d'un opérande.
+This is the English version of the README. For French, please see [README_FR.md](./README_FR.md).
+
+## Description 
+
+> The objective is to create a very simple calculator capable of performing addition, subtraction, multiplication, division, and the remainder of an integer division between two operands. It should also allow changing the sign of an operand.
 
 
-##  Outils et environnement de développement 
+## Tools and Development Environment
 
 <div align="center">
        <b> JAVA ( JDK + JRE ) </b>
     -- <b> IDE ( Eclipse ) </b>
 </div>
 
-## Spécifications 
-- Données : 2 opérandes et un opérateur
-- Résultat : résultat de l’opération choisie
-- Attention à la division par zéro qui est impossible
-- Les opérateurs 
-  - `+` : Addition
-  - `-` : Soustraction
-  - `*` : Multiplication
-  - `/` : Division 
-  - `+/-` : Changement de signe 
-  - `%` : Le reste de division entière
-  - `C` : Effacement de tous
-  - `🙂` : Effacement du dernier nombre inscrit
+## Specifications 
+- **Data:** 2 operands and an operator
+- **Result:** Result of the chosen operation
+- **Note:** Division by zero is not allowed.
+- **Operators:**
+  - `+`: Addition
+  - `-`: Subtraction
+  - `*`: Multiplication
+  - `/`: Division
+  - `+/-`: Change sign
+  - `%`: Remainder of integer division
+  - `C`: Clear all
+  - `🙂`: Clear the last entered number
 ##### Interfaces 
 <table align="center">
   <tr>
@@ -35,6 +38,6 @@ le reste d’une division entière de deux opérandes, ainsi que le changement d
 <table align="center">
   <tr>
     <th>
-    📝 Codez votre propre calculatrice ou développez celle-ci pour avoir mieux que ça.
+    📝 Code your own calculator or enhance the existing one for better functionality.
     </th>
   </tr>
